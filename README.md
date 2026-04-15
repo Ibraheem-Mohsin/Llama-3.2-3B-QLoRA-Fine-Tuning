@@ -2,7 +2,7 @@
 
 This project fine-tunes **Llama 3.2 3B** to generate **structured reasoning-style outputs** inspired by **DeepSeek R1-style thinking**, using **QLoRA**, **PEFT**, **TRL**, and **bitsandbytes** on **Google Colab**.
 
-The goal of this project was to teach a compact instruction-tuned LLM to produce more reflective, step-by-step reasoning traces before arriving at a final answer, while keeping training efficient enough to run on limited GPU resources.
+The goal of this project was to teach a compact instruction-tuned LLM to produce more reflective, step-by-step reasoning traces before arriving at a final answer, while keeping training efficient enough to **run** on limited GPU resources.
 
 ---
 
