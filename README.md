@@ -40,7 +40,7 @@ Instead of full fine-tuning, I used **QLoRA** to reduce memory usage and train o
 
 ## Dataset
 
-**Dataset used:**  
+**Dataset available on Hugging Face:**  
 [`ServiceNow-AI/R1-Distill-SFT`](https://huggingface.co/datasets/ServiceNow-AI/R1-Distill-SFT)
 
 The dataset includes:
