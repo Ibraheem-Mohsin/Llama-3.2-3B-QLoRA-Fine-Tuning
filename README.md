@@ -10,7 +10,7 @@ The goal of this project was to teach a compact instruction-tuned LLM to produce
 
 Most instruction-tuned LLMs can answer questions directly, but they do not always produce explicit reasoning in a structured way. In this project, I fine-tuned **Llama 3.2 3B** on the **ServiceNow-AI/R1-Distill-SFT** dataset so that the model learns to generate more chain-of-thought-style reasoning traces inspired by **DeepSeek R1-style thinking**.
 
-Instead of full fine-tuning, I used **QLoRA** to reduce memory usage and train only lightweight **LoRA adapters**, making the workflow practical on consumer or Colab GPUs.
+Instead of full fine-tuning, I used **QLoRA** to reduce memory usage and train only lightweight **LoRA adapters**, making the workflow practical on **consumer or Colab GPUs**.
 
 ---
 
@@ -74,19 +74,6 @@ The full workflow looks like this:
 7. Fine-tune using **SFTTrainer**
 8. Save LoRA adapters and tokenizer
 9. Reload the adapters for inference
-
----
-
-## Quantization Configuration
-
-The base model was loaded using **4-bit QLoRA-style quantization** with:
-
-- `load_in_4bit=True`
-- `bnb_4bit_quant_type="nf4"`
-- `bnb_4bit_use_double_quant=True`
-- `bnb_4bit_compute_dtype=torch.bfloat16`
-
-This reduces memory usage while keeping training stable and efficient.
 
 ---
 
