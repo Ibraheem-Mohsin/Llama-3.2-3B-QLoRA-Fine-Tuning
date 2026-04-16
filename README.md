@@ -134,30 +134,6 @@ Reload the base model, attach the adapters, and generate reasoning-style outputs
 
 ---
 
-## Learning Outcomes
-
-Through this project, I gained hands-on experience with:
-
-- Parameter-efficient fine-tuning using **LoRA**
-- Memory-efficient training with **QLoRA**
-- Low-bit model loading using **bitsandbytes**
-- Dataset formatting for **instruction tuning**
-- Hugging Face **Transformers**, **Datasets**, **PEFT**, and **TRL**
-- Saving and reloading LoRA adapters for inference
-- Practical LLM fine-tuning on limited hardware
-
----
-
-## Future Improvements
-
-- Train for more steps for stronger reasoning behavior
-- Add evaluation on reasoning benchmarks
-- Compare base model vs fine-tuned model qualitatively
-- Experiment with different prompt templates
-- Merge adapters into the base model for easier deployment
-- Test on additional reasoning datasets
-
----
 
 ## Disclaimer
 
@@ -165,11 +141,3 @@ This project encourages reasoning-style outputs, but generated reasoning traces 
 
 ---
 
-## Acknowledgments
-
-- Hugging Face
-- ServiceNow AI
-- Unsloth
-- TRL / PEFT / bitsandbytes contributors
-
----
