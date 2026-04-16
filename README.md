@@ -142,5 +142,5 @@ This project encourages reasoning-style outputs, but generated reasoning traces 
 ---
 
 ## 📄 License
-MIT
+**MIT**
 
