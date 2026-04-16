@@ -1,4 +1,4 @@
-# R1-Style Reasoning Fine-Tuning with Llama 3.2 3B
+# Fine-Tuning Llama 3.2 3B with R1-Style Reasoning
 
 This project fine-tunes **Llama 3.2 3B** to generate **structured reasoning-style outputs** inspired by **DeepSeek R1-style thinking**, using **QLoRA**, **PEFT**, **TRL**, and **bitsandbytes** on **Google Colab**.
 
