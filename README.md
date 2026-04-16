@@ -137,7 +137,7 @@ Reload the base model, attach the adapters, and generate reasoning-style outputs
 
 ## Disclaimer
 
-This project encourages reasoning-style outputs, but generated reasoning traces should not automatically be treated as factual or reliable. Outputs should still be validated, especially for important or sensitive tasks.
+This project encourages reasoning-style outputs, but generated reasoning traces should still be validated, especially for important or sensitive tasks.
 
 ---
 
